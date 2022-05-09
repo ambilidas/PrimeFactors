@@ -8,6 +8,8 @@ namespace PrimeFactors
         {
             PrimeFactor myobj = new PrimeFactor();
             myobj.findPrimeFactor();
+           
+        
         }
     }
 }

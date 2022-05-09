@@ -11,7 +11,7 @@ namespace PrimeFactors
         public void findPrimeFactor()
         {
             Console.WriteLine("Enter your number: ");
-           int a=int.Parse(Console.ReadLine());
+           int a=Convert.ToInt32(Console.ReadLine());
 
             for (int b = 2; a > 1; b++)
                 if (a % b == 0)
